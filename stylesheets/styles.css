@@ -540,7 +540,7 @@ body {
   font: 14px/1.5 "OpenSansRegular", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #f0e7d5;
   font-weight: normal;
-  background: #252525;
+  background-color: #252525;
   background-attachment: fixed !important;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #2a2a29), color-stop(100%, #1c1c1c));
   background: -webkit-linear-gradient(#2a2a29, #1c1c1c);
@@ -548,6 +548,8 @@ body {
   background: -o-linear-gradient(#2a2a29, #1c1c1c);
   background: -ms-linear-gradient(#2a2a29, #1c1c1c);
   background: linear-gradient(#2a2a29, #1c1c1c);
+  background-image : url('../images/bg.png');
+  background-color: #252525;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -751,12 +753,15 @@ dt {
   -o-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 0.3), 0px 3px 7px rgba(0, 0, 0, 0.7);
   background-color: #93bd20;
-  padding: 10px 12px;
+  padding: 10px 40px 10px 12px;
   margin-top: 6px;
   line-height: 14px;
   font-size: 14px;
   display: inline-block;
   text-align: center;
+  background-image  : url('../images/github.png');
+  background-repeat : no-repeat;
+  background-position : 68px 2px;
 }
 #header nav li a:hover {
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #749619), color-stop(100%, #527f0e));
@@ -771,6 +776,9 @@ dt {
   -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   -o-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
+  background-image    : url('../images/github.png');
+  background-repeat   : no-repeat;
+  background-position : 68px 2px;
 }
 #header nav li.fork {
   float: left;
